@@ -1,0 +1,21 @@
+.footer_wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  background-color: rgb(211, 211, 211);
+  justify-content: center;
+  }
+
+.copyright_container {
+  max-width: 20em;
+  color: rgb(60, 0, 226);
+  font-weight: 500;
+  
+}
+
+.copyright_text {
+    margin: 0 auto;
+    
+}
