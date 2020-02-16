@@ -1,0 +1,32 @@
+.header_wrapper {
+  position: absolute;
+  height: 4em;
+  line-height: 4em;
+  width: 100%;
+  background-color: #4e0422;
+  -webkit-box-shadow: 0px 6px 12px 1px rgb(102, 96, 102);
+  -moz-box-shadow: 0px 6px 12px 1px rgb(102, 96, 102);
+  box-shadow: 0px 1px 3px 1px rgb(102, 96, 102);
+}
+.header_container-options {
+  /* max-width: 18em; */
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+.icon {
+  height: 2em;
+  padding-top: 1.5em;
+  transition: 0.6;
+  padding-right: 20px;
+}
+.icon:hover {
+  fill: black;
+  cursor: pointer;
+}
+.icon-email {
+  padding-top: 2em;
+}
