@@ -25,10 +25,12 @@
       height: 2em;
       padding-top: 1.5em;
       transition: 0.6;
-      padding-right: 20px;
+      padding-right: 2.5em;
 
       &:hover {
-        fill: black;
+        // fill: red;
+        filter: invert(0.5) sepia(5) hue-rotate(100deg) saturate(4)
+          brightness(1);
         cursor: pointer;
       }
     }

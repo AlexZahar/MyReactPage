@@ -1,0 +1,12 @@
+.avatar_wrapper {
+  //   width: 5em;
+  //   height: 10em;
+  margin-top: 4em;
+  .avatar_photo {
+    width: 16em;
+    -webkit-box-shadow: 6px 7px 24px 0px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 6px 7px 24px 0px rgba(0, 0, 0, 0.64);
+    box-shadow: 6px 7px 24px 0px rgba(0, 0, 0, 0.64);
+    border-radius: 1.3em;
+  }
+}
