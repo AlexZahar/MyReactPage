@@ -3,9 +3,14 @@
   height: 4em;
   line-height: 4em;
   width: 100%;
-  background-color: #4e0422;
-  -webkit-box-shadow: 0px 6px 12px 1px rgb(102, 96, 102);
-  -moz-box-shadow: 0px 6px 12px 1px rgb(102, 96, 102);
+
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  -webkit-box-shadow: 0px 1px 3px 1px rgb(102, 96, 102);
+  -moz-box-shadow: 0px 1px 3px 1px rgb(102, 96, 102);
   box-shadow: 0px 1px 3px 1px rgb(102, 96, 102);
 }
 .header_container-options {
