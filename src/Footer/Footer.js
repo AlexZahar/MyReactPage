@@ -10,7 +10,8 @@ const footer = () => {
     <div className="footer_wrapper">
       <div className="copyright_containter">
         <p className="copyright_text">
-          Alexandru Zahar &#124; {currentYear} &#124; Personal Portfolio
+          Alexandru Zahar <span>&#124;</span> {currentYear} <span>&#124;</span>{" "}
+          Portfolio
         </p>
       </div>
     </div>

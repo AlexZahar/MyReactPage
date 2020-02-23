@@ -1,9 +1,18 @@
 .avatar_wrapper {
   //   width: 5em;
   //   height: 10em;
-  margin-top: 4em;
+
+  @media only screen and (min-width: 640px) {
+    margin-top: 3em;
+  }
+  margin-top: 3em;
   .avatar_photo {
     width: 16em;
+    margin-top: -19em;
+    @media only screen and (min-width: 640px) {
+      margin-top: 0;
+      width: 26em;
+    }
     -webkit-box-shadow: 6px 7px 24px 0px rgba(0, 0, 0, 0.64);
     -moz-box-shadow: 6px 7px 24px 0px rgba(0, 0, 0, 0.64);
     box-shadow: 6px 7px 24px 0px rgba(0, 0, 0, 0.64);
