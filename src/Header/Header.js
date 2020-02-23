@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./Header.scss";
 import resumeIcon from "../assets/icons/resume.svg";
 import githubIcon from "../assets/icons/github.svg";
 import linkedInIcon from "../assets/icons/linkedin_filled_logo.svg";
