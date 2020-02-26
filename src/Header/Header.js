@@ -10,7 +10,7 @@ const header = () => {
     <div className="header_wrapper">
       <div className="header_container-options">
         <a
-          href="../assets/resume/Resume_Zahar_Alexandru_Blue.pdf"
+          href="../assets/resume/Resume_Alexandru-Zahar.pdf"
           rel="noopener noreferrer"
           target="_blank"
         >
